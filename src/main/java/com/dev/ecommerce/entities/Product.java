@@ -26,7 +26,7 @@ public class Product {
 
     @ManyToMany
     @JoinTable(name = "product_category",
-            joinColumns = @JoinColumn(name = "produto_id"),
+            joinColumns = @JoinColumn(name = "product_id"),
             inverseJoinColumns = @JoinColumn(name = "categoria_id"))
     private Set<Category> categories = new HashSet<>();
 }

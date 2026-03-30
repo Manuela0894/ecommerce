@@ -1,9 +1,9 @@
-package com.dev.ecommerce.service;
+package com.dev.ecommerce.services;
 
 import com.dev.ecommerce.DTOs.requests.UserRequest;
 import com.dev.ecommerce.DTOs.responses.UserResponse;
 import com.dev.ecommerce.entities.User;
-import com.dev.ecommerce.mapper.UserMapper;
+import com.dev.ecommerce.mappers.UserMapper;
 import com.dev.ecommerce.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

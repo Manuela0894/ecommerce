@@ -1,9 +1,12 @@
-package com.dev.ecommerce.service;
+package com.dev.ecommerce.services;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 @Service
 @RequiredArgsConstructor
-public class ProductService {
+public class OrderItemService {
+
+
+
 }

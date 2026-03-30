@@ -1,10 +1,10 @@
-package com.dev.ecommerce.service;
+package com.dev.ecommerce.services;
 
 import com.dev.ecommerce.DTOs.requests.OrderRequest;
 import com.dev.ecommerce.DTOs.responses.OrderResponse;
 import com.dev.ecommerce.entities.Order;
 import com.dev.ecommerce.entities.User;
-import com.dev.ecommerce.mapper.OrderMapper;
+import com.dev.ecommerce.mappers.OrderMapper;
 import com.dev.ecommerce.repositories.OrderRepository;
 import com.dev.ecommerce.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +26,6 @@ public class OrderService {
         order = orderRepository.save(order);
         return OrderMapper.toOrder(order);
     }
-
-
+    
 
 }

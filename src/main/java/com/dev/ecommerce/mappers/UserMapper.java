@@ -1,4 +1,4 @@
-package com.dev.ecommerce.mapper;
+package com.dev.ecommerce.mappers;
 
 import com.dev.ecommerce.DTOs.requests.UserRequest;
 import com.dev.ecommerce.DTOs.responses.UserResponse;

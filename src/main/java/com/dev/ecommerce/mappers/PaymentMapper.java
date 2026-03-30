@@ -1,11 +1,9 @@
-package com.dev.ecommerce.mapper;
+package com.dev.ecommerce.mappers;
 
 import com.dev.ecommerce.DTOs.requests.PaymentRequest;
 import com.dev.ecommerce.DTOs.responses.PaymentResponse;
 import com.dev.ecommerce.entities.Payment;
 import lombok.experimental.UtilityClass;
-
-import java.time.LocalDate;
 
 @UtilityClass
 public class PaymentMapper {
